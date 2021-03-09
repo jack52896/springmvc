@@ -16,7 +16,7 @@ public class IndexController{
 	@RequestMapping("/index")
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		ModelAndView mav = new ModelAndView("index");
-		mav.addObject("message", "Hello springmvc");
+		mav.addObject("message", "Hello1 springmvc");
 		return  mav;
 	}
 	@RequestMapping("/addProduct")
